@@ -2,3 +2,60 @@
   transition: all 1s ease;
   background-color: red;
 }
+
+.ex-2-square:active{
+  transition: all 1s ease;
+  width: 100%;
+}
+
+.ex-3-square:hover{
+  transition: all 1s ease;
+  border-radius: 50px;
+}
+
+.ex-4-square:hover{
+  transition: all 1s ease;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ex-5-square:hover{
+  transition: all 1s ease;
+  width: 80px;
+  height: 80px;
+}
+
+.ex-5-square:active{
+  transition: all 1s ease;
+  width: 50px;
+  height: 50px;
+}
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+  transition: all 2s ease;
+  filter: saturate(200%);
+  filter: brightness(200%);
+}
+
+.ex-8-img:hover{
+  transition: all 1s ease;
+  border-radius: 20px;
+  filter: saturate(200%);
+  filter: sepia(20%);
+}
+
+.ex-9-img:hover{
+  transition: all 1s ease;
+  border-radius: 20px;
+  filter: saturate(200%);
+  filter: sepia(20%);
+  width: 200px;
+  margin: 17px 13px;
+}
+
+.fa-circle-notch{
+  transform:rotate(360deg);
+}
